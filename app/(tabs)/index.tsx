@@ -6,14 +6,13 @@ import {
     ActivityIndicator,
     Alert,
     FlatList,
+    Platform,
     RefreshControl,
+    SafeAreaView,
     StyleSheet,
     Text,
     TouchableOpacity,
-    View,
-    SafeAreaView,
-    Platform,
-    StatusBar,
+    View
 } from 'react-native';
 
 export default function HomeScreen() {
